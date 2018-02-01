@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+/*basic reset*/
+
+div,p,body,header,footer,section,article,nav 
+{ margin: 0; padding: 0; }
+img 
+{ border: none; /*remove link border*/margin: 0; padding: 0; }
+
+/*Body Code*/
+
+body 
+{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	color: #333;
+	background-color: lightgrey;
+}
+
+h1
+{
+	font-size: 50px;
+	line-height: 45px;
+}
+
+h2
+{
+	font-size: 20px;
+}
+
+footer
+{
+	clear: both;
+}
+
+#floatFace
+{
+	float: right;
+}
+
+#mainContainer
+{
+	width: 940px;
+	margin: 0 auto;
+	padding: 10px 20px 30px 20px;
+	background-color: white;
+}
+
+#mainContent
+{
+	width: 300px;
+}
+
+
+
+
+
